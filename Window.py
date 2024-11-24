@@ -5,7 +5,7 @@ import mysql.connector
 
 class Window:
     def __init__(self, email):
-        self.connection = mysql.connector.connect(host="localhost", user="root", passwd="lenovo", database="DBMS_Projects")
+        self.connection = mysql.connector.connect(host="localhost", user="root", passwd="PASSWORD", database="DATABASE_NAME")
         self.cursor = self.connection.cursor()
         self.root = tkinter.Tk()
         self.root.title("Password Manager")
