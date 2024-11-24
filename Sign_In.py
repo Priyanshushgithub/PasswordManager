@@ -6,7 +6,7 @@ import Window
 
 class Sign_In:
     def __init__(self):
-        self.conn = mysql.connector.connect(host="localhost", user="root", passwd="lenovo", database="DBMS_Projects")
+        self.conn = mysql.connector.connect(host="localhost", user="root", passwd="PASSWORD", database="DATABASE_NAME")
         self.cursor = self.conn.cursor()
 
         self.root = tkinter.Tk()
